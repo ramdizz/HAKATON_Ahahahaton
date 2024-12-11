@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="" class="header__image">
+        </div>
+    </header>
+    <main class="main">
+        <section class="welcome">
+            <p class="welcome__label">Нужна помощь с подбором новогоднего подарка?</p>
+            <h1 class="welcome__title">Генератор идей для подарков</h1>
+            <p class="welcome__desc">Воспользуйтесь нашим сервисом и получите подборку подарков по вашим предпочтениям!</p>
+        </section>
+
+        <section class="forms">
+            <div class="forms__container search-bar">
+                <h3 class="search-bar__title">Есть что-то на уме?</h3>
+                <p class="search-bar__description">Задайте конкретный запрос в поле ниже, и наши эльфы найдут вам лучшие варианты подарков под него!</p>
+                <form action="" class="search-bar__form">
+                    <input type="search" class="search-bar__input" placeholder="Введите ваш запрос">
+                    <button type="submit" class="search-bar__button">Подобрать подарок</button>
+                </form>
+            </div>
+
+            <div class="forms__container choice">
+                <h3 class="search-bar__title">Заполните своё волшебное письмо!</h3>
+                <form action="" class="choice__form">
+                    <p class="choice__comment">Кому предназначен ваш подарок?</p>
+                    <div class="choice__options">
+                        <input type="radio" id="family" name="recipient" value="family" class="choice__input">
+                        <label for="family" class="choice__label">Член семьи</label>
+
+                        <input type="radio" id="friend" name="recipient" value="friend" class="choice__input">
+                        <label for="friend" class="choice__label">Друг/подруга</label>
+
+                        <input type="radio" id="lover" name="recipient" value="lover" class="choice__input">
+                        <label for="lover" class="choice__label">Возлюбленный/ая</label>
+
+                        <input type="radio" id="colleague" name="recipient" value="colleague" class="choice__input">
+                        <label for="colleague" class="choice__label">Коллега</label>
+                    </div>
+                    <p class="choice__comment">Выберите категорию для поиска...</p>
+                    <select name="category" id="category" class="choice__select">
+                        <option value="category1">Категория 1</option>
+                        <option value="category2">Категория 2</option>
+                        <option value="category3">Категория 3</option>
+                        <option value="category4">Категория 4</option>
+                    </select>
+                    <p class="choice__comment">И ваш бюджет!</p>
+                    <input type="range" class="choice__range">
+
+                    <!-- <select name="budget" id="budget" class="choice__select">
+                        <option value="budget1">budget1</option>
+                        <option value="budget2">budget2</option>
+                        <option value="budget3">budget3</option>
+                        <option value="budget4">budget4</option>
+                    </select> -->
+
+                    <button type="submit" class="choice__button">Отправить письмо</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="recommendation">
+            <h2 class="recommendation__title">Возможно, вас заинтересует...</h2>
+            <div class="recommendation__cards-wrapper cards-wrapper">
+                <!-- пример карточки -->
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/f2/c2/0a/f2c20a014450673845041b1d99d69ba5.jpg" alt="" class="card__image">
+                    <h4 class="card__title">Название</h4>
+                    <p class="card__desc">Описание</p>
+                    <button onclick="location.href = 'https://www.dns-shop.ru/';" class="card__button">Перейти на сайт</button>
+                </div>
+                <!-- пример карточки -->
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+            <button onclick="location.href = 'https://www.dns-shop.ru/';" class="footer__button">Купить подарки с сайта</button>
+            <div>
+                <p class="footer__text">Права защищены</p>
+                <p class="footer__text">Авторство за Ахахатончиками</p>
+            </div>
+    </footer>
+</body>
+
+</html>
