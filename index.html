@@ -7,6 +7,7 @@
     <title>Gift Generator</title>
     <link rel="stylesheet" href="style.css">
     <script src="snow.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -28,20 +29,19 @@
 
         <section class="forms">
             <div class="forms__container search-bar striped-border-red">
-                <h3 class="search-bar__title">Есть что-то на уме?</h3>
-                <p class="choice__comment">Воспользуйтесь быстрым поиском!</p>
-                <p class="search-bar__comment">Задайте конкретный запрос в поле ниже, и наши эльфы найдут вам лучшие
-                    варианты новогодних подарков по нему.</p>
+                <h3 class="search-bar__title">Уже есть что-то на уме?</h3>
+                <p class="forms__subtitle">Воспользуйтесь быстрым поиском!</p>
+                <p class="search-bar__comment">Задайте конкретный запрос в поле ниже, и наши эльфы найдут вам подарки точно в соответствии с ним!</p>
                 <form action="" class="search-bar__form">
                     <input type="search" class="search-bar__input" placeholder="Введите ваш запрос">
-                    <button type="submit" class="search-bar__button">Подобрать подарок</button>
+                    <button type="submit" class="search-bar__button" id="formButton">Подобрать подарок</button>
                 </form>
             </div>
 
             <div class="forms__container choice striped-border-green">
                 <h3 class="choice__title">Не можете придумать?</h3>
-                <p class="choice__comment">Заполните своё волшебное письмо!</p>
-                <p class="search-bar__comment" style="text-align: center;">Все просто! Для этого заполните форму ниже, следуя инструкции, и мы быстро подберем вам подарки с наиболее точным соответствием.</p>
+                <p class="forms__subtitle">Заполните своё волшебное письмо!</p>
+                <p class="search-bar__comment" style="text-align: center;">Для этого заполните форму ниже, следуя инструкции, и мы быстро подберем вам подарки в соответствии с вашими пожеланиями.</p>
                 <form action="" class="choice__form">
                     <p class="choice__comment">Выберите категорию для поиска...</p>
                     <select name="category" id="category" class="choice__select">
@@ -50,58 +50,28 @@
                         <option value="category3">Категория 3</option>
                         <option value="category4">Категория 4</option>
                     </select>
-                    <p class="choice__comment">И ваш бюджет!</p>
+                    <p class="choice__comment">И сколько вы готовы потратить...</p>
                     <input type="number" class="choice__select">
-                    <button type="submit" class="choice__button">Отправить письмо</button>
+                    <button type="submit" class="choice__button" id="formButton">Отправить письмо</button>
                 </form>
             </div>
         </section>
 
         <section class="recommendation">
-            <h2 class="recommendation__title">Возможно, вас заинтересует...</h2>
+            <h2 class="recommendation__title">Ваша подборка</h2>
             <div class="recommendation__cards-wrapper cards-wrapper">
+<!-- пример карточки -->
                 <div class="card">
-                    <img src="https://i.pinimg.com/736x/f2/c2/0a/f2c20a014450673845041b1d99d69ba5.jpg" alt=""
-                        class="card__image">
-                    <h4 class="card__title">Название</h4>
-                    <p class="card__desc">Описание</p>
-                    <button onclick="location.href = '';" class="card__button">Перейти на
-                        сайт</button>
-                </div>
-                <div class="card">
-                    <img src="https://i.pinimg.com/736x/f2/c2/0a/f2c20a014450673845041b1d99d69ba5.jpg" alt=""
-                        class="card__image">
-                    <h4 class="card__title">Название</h4>
-                    <p class="card__desc">Описание</p>
-                    <button onclick="location.href = '';" class="card__button">Перейти на
-                        сайт</button>
-                </div>
-                <div class="card">
-                    <img src="https://i.pinimg.com/736x/f2/c2/0a/f2c20a014450673845041b1d99d69ba5.jpg" alt=""
-                        class="card__image">
-                    <h4 class="card__title">Название</h4>
-                    <p class="card__desc">Описание</p>
-                    <button onclick="location.href = '';" class="card__button">Перейти на
-                        сайт</button>
-                </div>
-                <div class="card">
-                    <img src="https://i.pinimg.com/736x/f2/c2/0a/f2c20a014450673845041b1d99d69ba5.jpg" alt=""
-                        class="card__image">
-                    <h4 class="card__title">Название</h4>
-                    <p class="card__desc">Описание</p>
-                    <button onclick="location.href = '';" class="card__button">Перейти на
-                        сайт</button>
-                </div>
-                <div class="card">
-                    <img src="https://i.pinimg.com/736x/f2/c2/0a/f2c20a014450673845041b1d99d69ba5.jpg" alt=""
-                        class="card__image">
-                    <h4 class="card__title">Название</h4>
-                    <p class="card__desc">Описание</p>
-                    <button onclick="location.href = '';" class="card__button">Перейти на
-                        сайт</button>
+                    <img src="" alt="" class="card__image"/>
+                    <h4 class="card__title"></h4>
+                    <div class="card__bottom">
+                      <p class="card__price">0 рублей</p>
+                      <button onclick="location.href='';" class="card__button">Подробнее</button>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+      </section>
     </main>
     <footer class="footer">
             <p class="footer__text">© Права защищены</p>
