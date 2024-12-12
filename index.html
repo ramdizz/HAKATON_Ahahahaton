@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gift Generator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 
 <body>
@@ -18,36 +19,41 @@
         <section class="welcome">
             <p class="welcome__label">Нужна помощь с подбором новогоднего подарка?</p>
             <h1 class="welcome__title">Генератор идей для подарков</h1>
-            <p class="welcome__desc">Воспользуйтесь нашим сервисом и получите подборку подарков по вашим предпочтениям!</p>
+            <p class="welcome__desc">Воспользуйтесь нашим сервисом и получите подборку подарков по вашим предпочтениям!
+            </p>
         </section>
 
         <section class="forms">
-            <div class="forms__container search-bar">
+            <div class="forms__container search-bar striped-border-red">
                 <h3 class="search-bar__title">Есть что-то на уме?</h3>
-                <p class="search-bar__description">Задайте конкретный запрос в поле ниже, и наши эльфы найдут вам лучшие варианты подарков под него!</p>
+                <p class="search-bar__comment">Задайте конкретный запрос в поле ниже, и наши эльфы найдут вам лучшие
+                    варианты подарков под него!</p>
                 <form action="" class="search-bar__form">
                     <input type="search" class="search-bar__input" placeholder="Введите ваш запрос">
                     <button type="submit" class="search-bar__button">Подобрать подарок</button>
                 </form>
             </div>
 
-<!--             я думаю стоит сделать оба блока в одинаковых цветах -->
-            <div class="forms__container choice">
-                <h3 class="search-bar__title">Заполните своё волшебное письмо!</h3>
+            <div class="forms__container choice striped-border-green">
+                <h3 class="choice__title">Заполните своё волшебное письмо!</h3>
                 <form action="" class="choice__form">
                     <p class="choice__comment">Кому предназначен ваш подарок?</p>
                     <div class="choice__options">
-                        <input type="radio" id="family" name="recipient" value="family" class="choice__input">
-                        <label for="family" class="choice__label">Член семьи</label>
-
-                        <input type="radio" id="friend" name="recipient" value="friend" class="choice__input">
-                        <label for="friend" class="choice__label">Друг/подруга</label>
-
-                        <input type="radio" id="lover" name="recipient" value="lover" class="choice__input">
-                        <label for="lover" class="choice__label">Возлюбленный/ая</label>
-
-                        <input type="radio" id="colleague" name="recipient" value="colleague" class="choice__input">
-                        <label for="colleague" class="choice__label">Коллега</label>
+                        <span class="choice__input">
+                            <input type="radio" id="family" name="recipient" value="family">
+                            <label for="family" class="choice__label">Член семьи</label>
+                        </span>
+                        <span class="choice__input">
+                            <input type="radio" id="friend" name="recipient" value="friend">
+                            <label for="friend" class="choice__label">Друг/подруга</label>
+                        </span>
+                        <span class="choice__input"> 
+                            <input type="radio" id="lover" name="recipient" value="lover">
+                            <label for="lover" class="choice__label">Возлюбленный/ая</label></span>
+                        <span class="choice__input">
+                            <input type="radio" id="colleague" name="recipient" value="colleague">
+                            <label for="colleague" class="choice__label">Коллега</label>
+                        </span>
                     </div>
                     <p class="choice__comment">Выберите категорию для поиска...</p>
                     <select name="category" id="category" class="choice__select">
@@ -58,8 +64,8 @@
                     </select>
                     <p class="choice__comment">И ваш бюджет!</p>
                     <input type="range" class="choice__range">
-
-                    <!-- <select name="budget" id="budget" class="choice__select">
+                <!-- или лучше сделать списком? 
+                    <select name="budget" id="budget" class="choice__select">
                         <option value="budget1">budget1</option>
                         <option value="budget2">budget2</option>
                         <option value="budget3">budget3</option>
@@ -76,24 +82,55 @@
             <div class="recommendation__cards-wrapper cards-wrapper">
                 <!-- пример карточки -->
                 <div class="card">
-                    <img src="https://i.pinimg.com/736x/f2/c2/0a/f2c20a014450673845041b1d99d69ba5.jpg" alt="" class="card__image">
+                    <img src="https://i.pinimg.com/736x/f2/c2/0a/f2c20a014450673845041b1d99d69ba5.jpg" alt=""
+                        class="card__image">
                     <h4 class="card__title">Название</h4>
                     <p class="card__desc">Описание</p>
-                    <button onclick="location.href = 'https://www.dns-shop.ru/';" class="card__button">Перейти на сайт</button>
+                    <button onclick="location.href = '';" class="card__button">Перейти на
+                        сайт</button>
                 </div>
                 <!-- пример карточки -->
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/f2/c2/0a/f2c20a014450673845041b1d99d69ba5.jpg" alt=""
+                        class="card__image">
+                    <h4 class="card__title">Название</h4>
+                    <p class="card__desc">Описание</p>
+                    <button onclick="location.href = '';" class="card__button">Перейти на
+                        сайт</button>
+                </div>
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/f2/c2/0a/f2c20a014450673845041b1d99d69ba5.jpg" alt=""
+                        class="card__image">
+                    <h4 class="card__title">Название</h4>
+                    <p class="card__desc">Описание</p>
+                    <button onclick="location.href = '';" class="card__button">Перейти на
+                        сайт</button>
+                </div>
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/f2/c2/0a/f2c20a014450673845041b1d99d69ba5.jpg" alt=""
+                        class="card__image">
+                    <h4 class="card__title">Название</h4>
+                    <p class="card__desc">Описание</p>
+                    <button onclick="location.href = '';" class="card__button">Перейти на
+                        сайт</button>
+                </div>
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/f2/c2/0a/f2c20a014450673845041b1d99d69ba5.jpg" alt=""
+                        class="card__image">
+                    <h4 class="card__title">Название</h4>
+                    <p class="card__desc">Описание</p>
+                    <button onclick="location.href = '';" class="card__button">Перейти на
+                        сайт</button>
+                </div>
             </div>
         </section>
     </main>
     <footer class="footer">
-            <button onclick="location.href = 'https://www.dns-shop.ru/';" class="footer__button">Купить подарки с сайта</button>
-<!--         эта кнопка лишняя, сильно выделяется -->
-            <div>
-                <p class="footer__text">Права защищены</p>
-                <p class="footer__text">Авторство за Ахахатончиками</p>
-            </div>
+        <div>
+            <p class="footer__text">Авторство за Ахахатончиками</p>
+            <p class="footer__text">© Права защищены</p>
+        </div>
     </footer>
 </body>
-</html>
 
-<!-- А вообще красиво. Мне нравится -->
+</html>
