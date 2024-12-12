@@ -62,10 +62,12 @@ footer {
 
 .welcome__label,
 .welcome__desc {
+    color: var(--element-color-dark-red);
     background-color: var(--element-color-biege);
     display: flex;
     align-items: center;
     height: 40px;
+    font-size: 24px;
     padding: 12px;
     border-radius: 12px;
 }
@@ -73,7 +75,7 @@ footer {
 .welcome__title {
     color: var(--element-color-biege);
     font-weight: 900;
-    font-size: 52px;
+    font-size: 56px;
 }
 
 .forms {
@@ -88,6 +90,7 @@ footer {
     padding: 24px;
     width: 664px;
     margin: 50px auto;
+    justify-content: center;
 }
 
 .search-bar,
@@ -129,6 +132,7 @@ footer {
     border-radius: 5px;
     border: 2px solid var(--element-color-dark-red);
     margin-bottom: 15px;
+    width: 100%;
     font-size: 16px;
 }
 
@@ -153,14 +157,13 @@ footer {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    width: 100%;
 }
 
 .choice__options {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .choice__input {
@@ -182,7 +185,7 @@ footer {
 .choice__select {
     width: 100%;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     border-radius: 5px;
     border: 2px solid var(--element-color-green);
     font-size: 16px;
@@ -192,24 +195,6 @@ footer {
     font-weight: 700;
     font-size: 16px;
     margin-bottom: 10px;
-}
-
-.choice__range {
-    -webkit-appearance: none;
-    appearance: none;
-    height: 10px;
-    background: var(--element-color-green);
-    border-radius: 5px;
-}
-
-.choice__range::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    background: var(--element-color-white);
-    border: 2px solid var(--element-color-dark-red);
-    border-radius: 50%;
 }
 
 .recommendation__title {
@@ -312,6 +297,5 @@ footer {
 
 .footer__text {
     color: var(--element-color-light-biege);
-    margin: 5px 0;
     font-size: 0.9em;
 }
