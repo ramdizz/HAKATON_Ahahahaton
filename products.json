@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Смартфон POCO C61",
+    "category": "Phone",
+    "For_M": true,
+    "url": "https://www.dns-shop.ru/product/bd25d55a68edd21a/678-smartfon-poco-c61-64-gb-zelenyj/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st1/fit/0/0/918fd1591a1e743321502b0134cde81e/91e4215e5669ead4f3a661acff569a7a47f076437472891774c9e8b602cf69ef.jpg.webp",
+    "price": 6799,
+    "rating": 4.5,
+    "availability": "В наличии"
+  },
+  {
+    "id": 2,
+    "name": "Ноутбук Apple MacBook Air серый",
+    "category": "PC",
+    "For_W": true,
+    "url": "https://www.dns-shop.ru/product/86910e9ae860ed20/133-noutbuk-apple-macbook-air-seryj/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st1/fit/0/0/e2acdd4df319847684602cb9c416ae69/bc1311aa320af2e639161b8f6b03f01d7f1d915c9186421f8472626fcad1195a.jpg.webp",
+    "price": 89799,
+    "rating": 4.5,
+    "availability": "В наличии"
+  },
+  {
+    "id": 3,
+    "name": "LED-телевизор Skyworth 65SUE9500",
+    "category": "TV",
+    "For_M": true,
+    "url": "https://www.dns-shop.ru/product/add04ef9a8dc6140/65-165-sm-led-televizor-skyworth-65sue9500-cernyj/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st1/fit/0/0/170760e3733cf83e81a0ac058316f6e1/5c59519688ec93e088626aa2e8c229a96aacc9fcc3bdfa87c62fdbc5547a14af.png.webp",
+    "price": 60299,
+    "rating": 5,
+    "availability": "В наличии"
+  },
+  {
+    "id": 4,
+    "name": "Микроволновая печь Samsung ME81KRW-1/BW",
+    "category": "Kitchen",
+    "For_W": true,
+    "url": "https://www.dns-shop.ru/product/06a45fb657fa3120/mikrovolnovaa-pec-samsung-me81krw-1bw-belyj/?utm_referrer=https%3A%2F%2F/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st4/fit/wm/0/0/1da92d615bed6e6ae4411ce06321be03/64b3d64f216f3ab28812b5284142521f3e20b8fa09c244d0e90cea410cec29a8.jpg.webp",
+    "price": 12299,
+    "rating": 4.6,
+    "availability": "В наличии"
+  },
+  {
+    "id": 5,
+    "name": "Игровая консоль PlayStation 5 Pro",
+    "category": "PC",
+    "For_M": true,
+    "url": "https://www.dns-shop.ru/product/5fa978af7f93d0a4/igrovaa-konsol-playstation-5-pro/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st1/fit/0/0/b0f1c54d088d1db7280cc5b55a139431/7f8d3527a7ba71b54aa6cd905a1b7a3e91aa4674e97c39e2d922e1c16abdedb1.png.webp",
+    "price": 124999,
+    "rating": 4.7,
+    "availability": "В наличии"
+  },
+  {
+    "id": 6,
+    "name": "Беспроводные/проводные наушники Sony WH-1000XM4",
+    "category": "PC",
+    "For_W": true,
+    "url": "https://www.dns-shop.ru/product/00ac9144e05f1b80/besprovodnyeprovodnye-nausniki-sony-wh-1000xm4-cernyj/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st4/fit/wm/0/0/a04633b7eb923ebba96d134b436cf4fc/98b9e05e914b1509d829607b96d3dbd3df7295e8704604cb4c8e45c8cd788b6b.jpg.webp",
+    "price": 33499,
+    "rating": 4.8,
+    "availability": "В наличии"
+  },
+  {
+    "id": 7,
+    "name": "Смарт-часы Apple Watch Series 8 41mm",
+    "category": "Sport",
+    "For_M": true,
+    "url": "https://www.dns-shop.ru/product/de79f8213fb8ed20/smart-casy-apple-watch-series-8-41mm/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st1/fit/0/0/8dd52e74a0ce52c841dfcb390f0bca6e/2f6c533a00a70e71ca727d1f22167bf51375b1ad9b90cd4c8bdafc28d2f4de49.jpg.webp",
+    "price": 33899,
+    "rating": 4.8,
+    "availability": "В наличии"
+  },
+  {
+    "id": 8,
+    "name": "Фитнес-браслет Xiaomi Smart Band 9",
+    "category": "Sport",
+    "For_W": true,
+    "price": 3990,
+    "url": "https://www.dns-shop.ru/product/9ca4193d4a5cd21a/fitnes-braslet-xiaomi-smart-band-9/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st1/fit/0/0/c589211717385f4d9086a9519a5efc4b/b89da2f53a533030c4f6ac179acd0b635f1c29cc832e3054c8b08db72aa7a6ec.jpg.webp",
+    "rating": 4.9,
+    "availability": "В наличии"
+  },
+  {
+    "id": 9,
+    "name": "Планшет HUAWEI MatePad 11.5”S PaperMatte Edition Wi-Fi 256 ГБ фиолетовый",
+    "category": "Phone",
+    "For_M": true,
+    "url": "https://www.dns-shop.ru/product/3f7ae0c31ee4d0a4/115-planset-huawei-matepad-115s-papermatte-edition-wi-fi-256-gb-fioletovyj--klaviatura/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st1/fit/0/0/24656189ff0f334fa95ab0ab7d74babb/0ba7b95885658bf4be489873fa08337a5696392155b73c3beeb041549a3f4d20.jpg.webp",
+    "price": 39999,
+    "rating": 4.7,
+    "availability": "В наличии"
+  },
+  {
+    "id": 10,
+    "name": "Стилус HUAWEI M-Pencil (3rd Gen)",
+    "category": "All",
+    "For_M": true,
+    "url": "https://www.dns-shop.ru/product/0b59b447a468ed20/stilus-huawei-m-pencil-3rd-gen-dla-huawei-matepad-matepad-pro-matepad-air-belyj/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st1/fit/wm/0/0/456ed597768bd890273ddff14bdeb99b/573a134fdce6411eb8dd9f8584ce39ad29c86f9276cce6e24799d170b3e567de.jpg.webp",
+    "price": 9999,
+    "rating": 4.8,
+    "availability": "В наличии"
+  },
+  {
+    "id": 11,
+    "name": "Мультиварка Marta MT-MC4337A розовый",
+    "category": "Kitchen",
+    "For_M": true,
+    "url": "https://www.dns-shop.ru/product/43a67dd65545cd33/multivarka-marta-mt-mc4337a-rozovyj/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st1/fit/0/0/1398911a386d1036aa549248214a8f83/646f4f4cdf57292bda6ad044a6fd5c8d7514e3096846ca06419c435d9209cbe8.jpg.webp",
+    "price": 1999,
+    "rating": 5,
+    "availability": "В наличии"
+  },
+  {
+    "id": 12,
+    "name": "Робот-пылесос Proscenic 950R черный",
+    "category": "Kitchen",
+    "For_M": true,
+    "url": "https://www.dns-shop.ru/product/6540dff7f839ed20/robot-pylesos-proscenic-950r-cernyj/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st4/fit/500/500/0029d8648c86239520f960439d260b9d/4eaf7b5a389cfedee5a0e9327c1074afad91c05398294cbfed6687d85e894aed.jpg.webp",
+    "price": 5999,
+    "rating": 4.5,
+    "availability": "В наличии"
+  },
+  {
+    "id": 13,
+    "name": "Дрель-шуруповерт Wesco WS2388K2.1 1ForAll 18V",
+    "category": "Builder",
+    "For_M": true,
+    "url": "https://www.dns-shop.ru/product/96475a21dcd4ed20/drel-surupovert-wesco-ws2388k21-1forall-18v/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st4/fit/500/500/695b33122575bd9e407435408e7b4e2e/cbb1e99f6b4173f35fa891c4b13fb90d5bfa91120c33b98ab0fa4997be75de16.jpg.webp",
+    "price": 4699,
+    "rating": 3.5,
+    "availability": "В наличии"
+  },
+  {
+    "id": 14,
+    "name": "Сковорода-блинница OneTwo Diamond O3CP13, 24 см серебристый",
+    "category": "Kitchen",
+    "For_M": true,
+    "url": "https://www.dns-shop.ru/product/a9396a69e554ed20/skovoroda-blinnica-onetwo-diamond-o3cp13-24-sm-serebristyj/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st1/fit/500/500/75836f6aefe1ea75a16ee4152acea1b0/7817574e8f6cb722ecef7ab216f9ad3f03cdce54932007fe7032afc0fe66651d.jpg.webp",
+    "price": 950,
+    "rating": 4.5,
+    "availability": "В наличии"
+  },
+  {
+    "id": 15,
+    "name": "Клавиатура проводная MSI Vigor GK20",
+    "category": "PC",
+    "For_M": true,
+    "url": "https://www.dns-shop.ru/product/1bc7d6b6d4f8c8c4/klaviatura-provodnaa-msi-vigor-gk20-51214/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st1/fit/500/500/0a5f865c40a33c88e9ba3503f646b27a/f98ed7f1deff981e8f742af4e8317c41d2cb46447274c4edff3f5bdf5c9f303b.jpg.webp",
+    "price": 2499,
+    "rating": 4.7,
+    "availability": "В наличии"
+  },
+  {
+    "id": 16,
+    "name": "Чайник для плиты Aceline TS-251 серебристый",
+    "category": "Kitchen",
+    "For_W": true,
+    "url": "https://www.dns-shop.ru/product/b6be0ae409b43332/cajnik-dla-plity-aceline-ts-251-serebristyj/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st4/fit/500/500/6135dcee6b184ac178975ec32a34a162/6acac6af6a8191a827da2b7d2c6f1b10f767f52eb226c35642792f02e0ad8b4c.jpg.webp",
+    "price": 850,
+    "rating": 4.5,
+    "availability": "В наличии"
+  },
+  {
+    "id": 17,
+    "name": "Бетоносмеситель Парма БСЛ-65",
+    "category": "Builder",
+    "for_M": true,
+    "url": "https://www.dns-shop.ru/product/709260b2497e3333/betonosmesitel-parma-bsl-65/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st1/fit/500/500/0c7d236c56bfec066a96aba2d445a86f/5eefa9fd85d0b1c3497d50c61b5df9ee42038e7b642f1917a721b19550100ead.jpg.webp",
+    "price": 12999,
+    "rating": 4.5,
+    "availability": "В наличии"
+  },
+  {
+    "id": 18,
+    "name": "Фен Hyundai H-HI0755 черный",
+    "category": "All",
+    "for_W": true,
+    "price": 1699,
+    "url": "https://www.dns-shop.ru/product/6ec5148e6c483b4b/fen-hyundai-h-hi0755-cernyj/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st1/fit/500/500/228097fdbe05aed6f8c2dffd3d26c9fc/5db72e2e701ca5a3cd2bd6fb91b1fe30405b1fbada6fe8a045a82ec4c0fd141e.jpg.webp",
+    "rating": 5,
+    "availability": "В наличии"
+  },
+  {
+    "id": 19,
+    "name": "Система виртуальной реальности VR Pico 4 Ultra SG белый",
+    "category": "PC",
+    "For_M": true,
+    "url": "https://www.dns-shop.ru/product/54a91f6d85f3d582/sistema-virtualnoj-realnosti-vr-pico-4-ultra-sg-belyj/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st1/fit/500/500/039d9293e37215de86720f6f61ff4800/1e101b51ca8c76e20ddfa68fcd207ff699d9360ba15cb5d7943bed69c0eaf318.jpg.webp",
+    "price": 98299,
+    "rating": 5,
+    "availability": "В наличии"
+  },
+  {
+    "id": 20,
+    "name": "Массажная накидка Medisana MCG 820 черный",
+    "category": "All",
+    "for_W": true,
+    "url": "https://www.dns-shop.ru/product/ab97eecbe3a32ff2/massaznaa-nakidka-medisana-mcg-820-cernyj/",
+    "urlphoto": "https://c.dns-shop.ru/thumb/st1/fit/500/500/8208a774eb761b6705ba1b4b25fa00e2/6317214d10c18d4a53ad9a5bb1b7eb302538d5528cf4b47bc298b1e4237c43ff.jpg.webp",
+    "price": 29899,
+    "rating": 4.2,
+    "availability": "В наличии"
+  }
+]
