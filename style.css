@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 :root {
-    --element-color-orange: #ff854c;
     --element-color-light-orange: #ffa775;
     --element-color-light-red: #dd594f;
     --element-color-light-red: #f37368;
@@ -143,12 +142,8 @@ footer {
     background-color: var(--element-color-light-red);
 }
 
-.search-bar__button:hover {
-    background-color: var(--element-color-light-red);
-}
-
 .choice__title {
-    color: var(--element-color-orange);
+    color: var(--element-color-light-orange);
 }
 
 .choice__button,
@@ -174,15 +169,7 @@ footer {
 }
 
 .choice__button {
-    background-color: var(--element-color-orange);
-}
-
-.choice__button:hover {
     background-color: var(--element-color-light-orange);
-}
-
-.choice__label:hover {
-    color: var(--element-color-orange);
 }
 
 .choice__select {
@@ -190,7 +177,7 @@ footer {
     padding: 10px;
     margin-bottom: 18px;
     border-radius: 5px;
-    border: 2px solid var(--element-color-orange);
+    border: 2px solid var(--element-color-light-orange);
     font-size: 16px;
 }
 
@@ -284,19 +271,19 @@ footer {
     width: 248px;
     height: 248px;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 
 .card__title {
     color: var(--element-color-light-black);
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 12px;
 }
 
 .card__price {
-    color: var(--element-color-orange);
+    color: var(--element-color-light-orange);
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .card__bottom {
@@ -328,10 +315,6 @@ footer {
     background-color: var(--element-color-light-biege);
     padding: 10px 20px;
     cursor: pointer;
-}
-
-.footer__button:hover {
-    background-color: var(--element-color-biege);
 }
 
 .footer__text {
