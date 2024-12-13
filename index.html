@@ -1,77 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gift Generator</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="snow.js" defer></script>
     <script src="script.js" defer></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="header__logo">
-            <img src="dns.svg" class="header__image" style="margin: 16px;">
-        </div>
+      <div class="header__logo">
+        <img src="" class="header__image" />
+      </div>
     </header>
     <main class="main">
-        <section class="welcome">
-            <p class="welcome__label">Нужна помощь с подбором новогоднего подарка?</p>
-            <h1 class="welcome__title">Генератор идей для подарков</h1>
-            <p class="welcome__desc">Воспользуйтесь нашим сервисом и получите подборку подарков по вашим предпочтениям, прямиком из DNS!
-            </p>
-        </section>
+      <section class="welcome">
+        <div class="welcome__star">
+          <img src="" alt="" style="width: 20px; height: auto" />
+        </div>
+        <p class="welcome__label">
+          Нужна помощь с подбором новогоднего подарка?
+        </p>
+        <h1 class="welcome__title">Генератор идей для подарков</h1>
+        <p class="welcome__desc">
+          Воспользуйтесь нашим сервисом и получите подборку подарков по вашим
+          предпочтениям, прямиком из DNS!
+        </p>
+      </section>
 
-        <section class="forms">
-            <div class="forms__container search-bar striped-border-red">
-                <h3 class="search-bar__title">Уже есть что-то на уме?</h3>
-                <p class="forms__subtitle">Воспользуйтесь быстрым поиском!</p>
-                <p class="search-bar__comment">Задайте конкретный запрос в поле ниже, и наши эльфы найдут вам подарки точно в соответствии с ним!</p>
-                <form action="" class="search-bar__form">
-                    <input type="search" class="search-bar__input" placeholder="Введите ваш запрос">
-                    <button type="submit" class="search-bar__button" id="formButton">Подобрать подарок</button>
-                </form>
-            </div>
+      <section class="forms">
+        <div class="forms__container search-bar striped-border-red">
+          <h3 class="search-bar__title">Уже есть что-то на уме?</h3>
+          <p class="forms__subtitle">Воспользуйтесь быстрым поиском!</p>
+          <p class="search-bar__comment">
+            Задайте конкретный запрос в поле ниже, и наши эльфы найдут вам
+            подарки точно в соответствии с ним!
+          </p>
+          <form action="" class="search-bar__form">
+            <input
+              type="search"
+              class="search-bar__input"
+              id="search-bar-input"
+              placeholder="Введите ваш запрос"
+            />
+          </form>
+        </div>
 
-            <div class="forms__container choice striped-border-orange">
-                <h3 class="choice__title">Не можете придумать?</h3>
-                <p class="forms__subtitle">Заполните своё волшебное письмо!</p>
-                <p class="search-bar__comment" style="text-align: center;">Для этого заполните форму ниже, следуя инструкции, и мы быстро подберем вам подарки в соответствии с вашими пожеланиями.</p>
-                <form action="" class="choice__form">
-                    <p class="choice__comment">Выберите категорию для поиска...</p>
-                    <select name="category" id="category" class="choice__select">
-                        <option value="category1">Категория 1</option>
-                        <option value="category2">Категория 2</option>
-                        <option value="category3">Категория 3</option>
-                        <option value="category4">Категория 4</option>
-                    </select>
-                    <p class="choice__comment">И сколько вы готовы потратить...</p>
-                    <input type="number" class="choice__select">
-                    <button type="submit" class="choice__button" id="formButton">Отправить письмо</button>
-                </form>
+        <div class="forms__container choice striped-border-green">
+          <h3 class="choice__title">Не можете придумать?</h3>
+          <p class="forms__subtitle">Заполните своё волшебное письмо!</p>
+          <p class="search-bar__comment" style="text-align: center">
+            Для этого заполните форму ниже, следуя инструкции, и мы быстро
+            подберем вам подарки в соответствии с вашими пожеланиями.
+          </p>
+          <form action="" class="choice__form">
+            <p class="choice__comment">Выберите категорию для поиска...</p>
+            <div id="category-buttons">
+              <button
+                type="button"
+                class="category__buttons"
+                data-category="Sport"
+              >
+                Спорт
+              </button>
+              <button
+                type="button"
+                class="category__buttons"
+                data-category="Kitchen"
+              >
+                Кухня
+              </button>
+              <button
+                type="button"
+                class="category__buttons"
+                data-category="PC"
+              >
+                Компьютеры
+              </button>
+              <button
+                type="button"
+                class="category__buttons"
+                data-category="Phone"
+              >
+                Телефоны
+              </button>
+              <button
+                type="button"
+                class="category__buttons"
+                data-category="Builder"
+              >
+                Стройка
+              </button>
+              <button
+                type="button"
+                class="category__buttons"
+                data-category="all"
+              >
+                Все категории
+              </button>
             </div>
-        </section>
+            <p class="choice__comment">И ваш бюджет!</p>
+            <input type="number" class="search-bar__input" id="price-input" />
+          </form>
+        </div>
+      </section>
 
-        <section class="recommendation">
-            <h2 class="recommendation__title">Ваша подборка</h2>
-            <div class="recommendation__cards-wrapper cards-wrapper">
-                <!-- <div class="card">
-                    <img src="" alt="" class="card__image"/>
-                    <h4 class="card__title"></h4>
-                    <div class="card__bottom">
-                      <p class="card__price"></p>
-                      <button onclick="location.href='';" class="card__button">Подробнее</button>
-                    </div>
-                  </div> -->
-            </div>
+      <section class="recommendation">
+        <h2 class="recommendation__title">Ваша подборка</h2>
+        <div
+          class="recommendation__cards-wrapper cards-wrapper"
+          id="cards-container"
+        >
+          <!-- сюда JSON выводится -->
         </div>
       </section>
     </main>
     <footer class="footer">
-            <p class="footer__text">© Права защищены</p>
+      <p class="footer__text">© Права защищены</p>
     </footer>
-</body>
-
+  </body>
 </html>
