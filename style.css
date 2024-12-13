@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 :root {
-  --element-color-light-orange: #ffa775;
-  --element-color-light-red: #dd594f;
-  --element-color-light-red: #f37368;
-  --element-color-light-red: #e77268;
-  --element-color-biege: #fffcf6;
-  --element-color-light-biege: #fffdf6;
-  --element-color-white: #ffffff;
-  --element-color-black: #333;
-  --element-color-light-black: #4e4e4e;
+    --element-color-orange: #ff854c;
+    --element-color-light-orange: #ffa774;
+    --element-color-dark-red: #dd594f;
+    --element-color-light-red: #e77268;
+    --element-color-biege: #fffcf6;
+    --element-color-light-biege: #fffdf6;
+    --element-color-white: #ffffff;
+    --element-color-black: #333;
+    --element-color-light-black: #4e4e4e;
 }
 
 .snowflake {
